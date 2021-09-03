@@ -25,8 +25,8 @@ class ScrollScreen extends StatelessWidget {
           physics: BouncingScrollPhysics(),
           scrollDirection: Axis.vertical,
           children: [
-            Page1(),
-            Page2()
+            _Page1(),
+            _Page2()
           ]
         )
       )
@@ -34,7 +34,7 @@ class ScrollScreen extends StatelessWidget {
   }
 }
 
-class Page1 extends StatelessWidget {
+class _Page1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -87,7 +87,7 @@ class _MainContent extends StatelessWidget {
   }
 }
 
-class Page2 extends StatelessWidget {
+class _Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

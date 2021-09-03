@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:designs/screens/basic_design.dart';
+import 'package:designs/screens/home_design.dart';
 import 'package:designs/screens/scroll_design.dart';
 
 void main() => runApp(MyApp());
@@ -14,11 +15,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light
       ),
-      initialRoute: "scroll-design",
+      initialRoute: "home-screen",
       routes: {
         "basic-design" : (_) => BasicDesignScreen(),
-        "scroll-design" : (_) => ScrollScreen()
-      },
+        "scroll-design" : (_) => ScrollScreen(),
+        "home-screen" : (_) => HomeScreen()
+      }
     );
   }
 }
