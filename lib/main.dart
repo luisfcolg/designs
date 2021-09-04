@@ -18,8 +18,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Material App",
       theme: ThemeData(
-        brightness: Brightness.light,
-        bottomAppBarColor: Colors.green
+        brightness: Brightness.dark,
+        primaryColor: Color.fromRGBO(236, 98, 188, 1),
+        accentColor: Color.fromRGBO(251, 142, 172, 1)
       ),
       initialRoute: "home-screen",
       routes: {

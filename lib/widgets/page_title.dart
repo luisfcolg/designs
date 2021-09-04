@@ -4,7 +4,7 @@ class PageTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(vertical: 30.0, horizontal: 20.0),
+      margin: EdgeInsets.only(top: 30.0, bottom: 10.0, left: 20.0, right: 20.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

@@ -6,7 +6,7 @@ class CustomBottomNavigation extends StatelessWidget {
     return BottomNavigationBar(
       showSelectedLabels: false,
       showUnselectedLabels: false,
-      selectedItemColor: Colors.pink,
+      selectedItemColor: Color.fromRGBO(236, 98, 188, 1),
       unselectedItemColor: Color.fromRGBO(116, 117, 152, 1),
       backgroundColor: Color.fromRGBO(55, 57, 84, 1),
       items: [
